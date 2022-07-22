@@ -1,7 +1,6 @@
 from icon_font_to_png.icon_font import IconFont
 import os
 from PIL import Image
-import fire
 import numpy as np
 
 
@@ -24,6 +23,7 @@ def gen_icon(
     seed: int = 42,
     pro_icon_path: str = None,
     pro_css_path: str = None,
+    write_file: bool = False,
 ):
     """
     Generates a Font Awesome icon mask from the given FA prefix + name.
@@ -124,13 +124,6 @@ def gen_icon(
         top_offset = bg_height - icon_height
 
     icon_bg.paste(icon_img, (left_offset, top_offset), icon_img)
-    icon_bg.save("icon.png")
-
-
-def cli(**kwargs):
-    """Entrypoint for the stylecloud CLI."""
-    fire.Fire(gen_icon)
-
-
-if __name__ == "__main__":
-    cli()
+    if write_file:
+        icon_bg.save("icon.png")
+    return icon_bg

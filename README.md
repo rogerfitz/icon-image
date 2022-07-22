@@ -1,5 +1,21 @@
 # icon-image
 
+A pip installable version of [minimaxir's](https://github.com/minimaxir) [icon-image](https://github.com/minimaxir/icon-image) 
+
+## Install 
+1. Python 3.9. Install with `pip install icon-image`.
+1. Download css and ttf files from repo (fa-regular-400.ttf, fa-solid-900.ttf, fontawesome.min.css). Place wherever you are running
+
+## Run
+```python
+from icon_image import icon_image
+icon_image.gen_icon(icon_name="fas fa-male")
+```
+Now you should have a icon file generated. For more arguments see 
+## Issues
+Image is returned 
+
+# Original README Below
 Python script to quickly generate a [Font Awesome](https://fontawesome.com/) icon imposed on a background, mostly intended to be used to steer the usage of a VQGAN + CLIP model generation, such as with this [Colab Notebook](https://colab.research.google.com/drive/1Foi0mCSE6NrW9oI3Fhni7158Krz4ZXdH?usp=sharing).
 
 Inspired by Mark Ridel's [attempt at controlling figure placement](https://twitter.com/mark_riedl/status/1421282588791132161) for VQGAN + CLIP.
