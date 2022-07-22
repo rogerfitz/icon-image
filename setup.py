@@ -12,7 +12,7 @@ setup(
   packages = ['icon_image'], # this must be the same as the name above
   version = '0.0.2',
   description = 'Generate icons programmatically in Python. Helps nudge AI algorithms',
-  author = 'Sports Data Direct',
+  author = 'Pythus Data LLC',
   author_email = 'matteo@matteohoch.com',
   url = 'https://github.com/rogerfitz/icon-image', # use the URL to the github repo
   download_url = 'https://github.com/rogerfitz/icon-image/releases', # git push --tags origin master
