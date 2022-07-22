@@ -4,7 +4,10 @@ A pip installable version of [minimaxir's](https://github.com/minimaxir) [icon-i
 
 ## Install 
 1. Python 3.9. Install with `pip install icon-image`.
-1. Download css and ttf files [from repo](https://github.com/rogerfitz/icon-image/tree/master/icon_image) (fa-regular-400.ttf, fa-solid-900.ttf, fontawesome.min.css). Place wherever you are running
+1. Download css and ttf files [from repo](https://github.com/rogerfitz/icon-image/tree/master/icon_image) (fa-regular-400.ttf, fa-solid-900.ttf, fontawesome.min.css). Place wherever you are running the pacakge
+
+## Colab Notebook
+See https://colab.research.google.com/drive/1xlq5njaE2tttDP5JVI3aYJIoPOhJL-CB 
 
 ## Run
 ```python
