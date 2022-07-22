@@ -1,6 +1,8 @@
 # icon-image
 
 A pip installable version of [minimaxir's](https://github.com/minimaxir) [icon-image](https://github.com/minimaxir/icon-image) 
+  
+[Youtube Video](https://youtu.be/sZJ8m4zP8FM)
 
 ## Install 
 1. Python 3.9. Install with `pip install icon-image`.
@@ -17,7 +19,7 @@ pil_image = icon_image.gen_icon(icon_name="fas fa-male")
 Now you should now have a Pillow image you can do whatever you want with.
 
 ## Other Fonts
-You can use other fonts as well. Be sure to call the icon name correctly. 
+You can use other fonts as well. Be sure to call the icon name correctly. See https://fontawesome.com/v4/icons/ for names
 
 # Original README Below
 Python script to quickly generate a [Font Awesome](https://fontawesome.com/) icon imposed on a background, mostly intended to be used to steer the usage of a VQGAN + CLIP model generation, such as with this [Colab Notebook](https://colab.research.google.com/drive/1Foi0mCSE6NrW9oI3Fhni7158Krz4ZXdH?usp=sharing).
